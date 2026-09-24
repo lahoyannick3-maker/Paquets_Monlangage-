@@ -1,0 +1,9 @@
+{
+  "nom": "outils",
+  "version": "1.0.0",
+  "description": "Premier paquet de test pour MonLangage",
+  "type": "mlg",
+  "modules": [
+    "bonjour"
+  ]
+}
