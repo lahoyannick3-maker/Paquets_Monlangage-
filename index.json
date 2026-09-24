@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "paquets": [
+    {
+      "nom": "outils",
+      "version": "1.0.0",
+      "chemin": "paquets/outils"
+    }
+  ]
+}
