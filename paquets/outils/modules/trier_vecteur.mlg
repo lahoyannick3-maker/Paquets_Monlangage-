@@ -1,0 +1,20 @@
+de copier import(copierListe sunom~copier)
+fonc trier(x, ordre~|croissant|){ ** <-- 2 args obligatoires
+    x~copier(x)
+n~lon(x)
+    pou(i, 1, n-1){
+        pou(j, 1, n-i){
+            si(ordre == |croissant| et x[j] > x[j+1]){
+                temp~x[j]
+                x[j]~x[j+1]
+                x[j+1]~temp
+            }
+            sinon si(ordre == |decroissant| et x[j] < x[j+1]){
+                temp~x[j]
+                x[j]~x[j+1]
+                x[j+1]~temp
+            }
+        }
+    }
+    retour(x)
+}
