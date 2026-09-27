@@ -1,5 +1,5 @@
 **de copier import(copierListe sunom~copier)
-fonc trier(x, ordre~|croissant|){ ** <-- 2 args obligatoires
+fonc trier(x, ordre~|croissant|){
     **x~copier(x)
 n~lon(x)
     pou(i, 1, n-1){
