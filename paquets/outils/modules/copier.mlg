@@ -1,0 +1,8 @@
+fonc copierListe(x){
+    n~lon(x)
+    nouvelle~c()
+    pou(i, 1, n){
+        nouvelle.ajout(x[i])
+    }
+    retour(nouvelle)
+}
