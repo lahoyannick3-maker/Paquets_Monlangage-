@@ -4,6 +4,6 @@
   "description": "Premier paquet de test pour MonLangage",
   "type": "mlg",
   "modules": [
-    "bonjour"
+    "bonjour","trier_vecteur","copier"
   ]
 }
