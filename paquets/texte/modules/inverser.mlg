@@ -5,5 +5,3 @@ fonc inverser(t){
   }
   retour res
 }
-
-affi(inverser(|olev|))
