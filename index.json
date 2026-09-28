@@ -5,6 +5,11 @@
       "nom": "outils",
       "version": "1.0.0",
       "chemin": "paquets/outils"
+    },
+    {
+      "nom":"texte",
+      "version":"1.0.0",
+      "chemin":"paquets/texte"
     }
   ]
 }
