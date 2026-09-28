@@ -1,1 +1,9 @@
-
+{
+  "nom": "texte",
+  "version": "1.0.0",
+  "description": "Paquets pour les opérations sur du texte",
+  "type": "mlg",
+  "modules": [
+    "inverser","decouper_par","est_palindrome"
+  ]
+}
