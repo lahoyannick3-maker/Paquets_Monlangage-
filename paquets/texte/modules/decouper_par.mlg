@@ -1,0 +1,14 @@
+fonc decouper_par(t,sep~|,|){
+  res~liste()
+  mot~||
+  pou(i,1,lon(t)){
+    si(t[i]==sep){
+      res.ajout(mot)
+      mot~||
+    }sinon{
+      mot~mot+t[i]
+    }
+  }
+  res.ajout(mot)
+  retour res
+}

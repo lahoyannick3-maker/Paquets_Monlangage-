@@ -1,1 +1,9 @@
+fonc inverser(t){
+  res~||
+  pou(i,lon(t),1,-1){
+    res~res+t[i]
+  }
+  retour res
+}
 
+affi(inverser(|olev|))

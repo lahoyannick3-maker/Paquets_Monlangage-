@@ -1,0 +1,10 @@
+fonc est_palindrome(t){
+  mot~t.miniscul().suprespac()
+  l~lon(mot)
+  pou(i,1,l/2){
+    si(mot[i]!=mot[l-i+1]){
+      retour F
+    }
+  }
+  retour V
+}
