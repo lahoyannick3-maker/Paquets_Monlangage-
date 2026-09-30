@@ -1,0 +1,25 @@
+fonc remplacer(t, ancien, nouveau){
+  lt~lon(t)
+  la~lon(ancien)
+  si(la == 0){ retour t }
+  res~| |
+  i~1
+  pou(i, 1, lt){
+    ** on verifie si ancien est a la position i
+    ok~V
+    si(i + la - 1 > lt){ ok~F }
+    si(ok == V){
+      pou(j, 1, la){
+        si(t[i + j - 1]!= ancien[j]){ ok~F }
+      }
+    }
+    si(ok == V){
+      res~res + nouveau
+      i~i + la - 1
+    }
+    si(ok == F){
+      res~res + t[i]
+    }
+  }
+  retour res
+}

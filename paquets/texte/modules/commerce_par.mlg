@@ -1,0 +1,8 @@
+fonc commence_par(t, debut){
+  ld~lon(debut)
+  si(ld > lon(t)){ retour F }
+  pou(i, 1, ld){
+    si(t[i]!= debut[i]){ retour F }
+  }
+  retour V
+}

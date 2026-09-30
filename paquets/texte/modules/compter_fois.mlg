@@ -1,0 +1,15 @@
+fonc compter_fois(t, recherche){
+  lt~lon(t)
+  lr~lon(recherche)
+  si(lr == 0){ retour 0 }
+  si(lr > lt){ retour 0 }
+  c~0
+  pou(i, 1, lt - lr + 1){
+    ok~V
+    pou(j, 1, lr){
+      si(t[i + j - 1]!= recherche[j]){ ok~F }
+    }
+    si(ok == V){ c~c + 1 }
+  }
+  retour c
+}
