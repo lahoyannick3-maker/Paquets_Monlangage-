@@ -1,6 +1,6 @@
-**de copier import(copierListe sunom~copier)
+de copier import(copierListe sunom~copier)
 fonc trier(x, ordre~|croissant|){
-    **x~copier(x)
+    x~copier(x)
 n~lon(x)
     pou(i, 1, n-1){
         pou(j, 1, n-i){
