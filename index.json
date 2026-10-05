@@ -7,9 +7,14 @@
       "chemin": "paquets/outils"
     },
     {
-      "nom":"texte",
-      "version":"1.0.0",
-      "chemin":"paquets/texte"
+      "nom": "texte",
+      "version": "1.0.0",
+      "chemin": "paquets/texte"
+    },
+    {
+      "nom": "essai",
+      "chemin": "paquets/essai",
+      "version": "1.0.0"
     }
   ]
 }
