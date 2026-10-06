@@ -1,9 +1,0 @@
-{
-  "nom": "essai",
-  "version": "1.0.0",
-  "description": "Premier paquet de test pour MonLangage publier",
-  "type": "mlg",
-  "modules": [
-    "Test"
-  ]
-}
