@@ -1,9 +1,10 @@
 {
   "nom": "outils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Premier paquet de test pour MonLangage",
   "type": "mlg",
   "modules": [
-    "bonjour","trier_vecteur","copier"
+    "trier_vecteur",
+    "copier"
   ]
 }
